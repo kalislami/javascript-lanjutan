@@ -17,4 +17,6 @@ function main(numbers, queries) {
     console.log(result);
 }
 
-main([-5,0], [[2,2,20],[1,2,10]])
+// main([-5,0], [[2,2,20],[1,2,10]])
+
+console.log(Date.now());

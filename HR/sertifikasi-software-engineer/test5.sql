@@ -1,0 +1,8 @@
+-- YOUNGEST EMPLOYEE
+
+SELECT eu.UIN, e.NAME
+    FROM EMPLOYEE e
+    JOIN EMPLOYEE_UIN eu
+    ON e.ID = eu.ID
+    WHERE e.AGE < 25
+    ORDER BY e.NAME, e.ID ASC;
